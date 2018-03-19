@@ -6,18 +6,25 @@ module.exports = {
       title: 'Providence Health Luminate Framework',
       message: 'Grunt config updated. You should restart Grunt.'
     }
-  }, 
-  
+  },
+
   "global": {
     options: {
-      title: 'Providence Health Luminate Framework', 
+      title: 'Providence Health Luminate Framework',
       message: 'Global files updated'
+    }
+  },
+
+  "swedish": {
+    options: {
+      title: 'Swedish',
+      message: 'Swedish files updated'
     }
   },
 
   "participant-center": {
     options: {
-      title: 'Angular TeamRaiser Participant Center', 
+      title: 'Angular TeamRaiser Participant Center',
       message: 'Build complete.'
     }
   }

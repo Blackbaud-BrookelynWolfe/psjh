@@ -9,6 +9,14 @@ module.exports = {
     }
   },
 
+  "swedish": {
+    files: {
+      'dist/swedish/css/main.css': [
+        'src/swedish/sass/main.scss'
+      ]
+    }
+  },
+
   "participant-center": {
     files: {
       'dist/participant-center/css/main.css': [

@@ -4,22 +4,48 @@ module.exports = {
   "global": {
     files: [
       {
-        expand: true, 
-        cwd: 'dist/global/html/', 
+        expand: true,
+        cwd: 'dist/global/html/',
         src: [
           '**/*'
         ]
-      }, 
+      },
       {
-        expand: true, 
-        cwd: 'dist/global/css/', 
+        expand: true,
+        cwd: 'dist/global/css/',
         src: [
           '**/*'
         ]
-      }, 
+      },
       {
-        expand: true, 
-        cwd: 'dist/global/js/', 
+        expand: true,
+        cwd: 'dist/global/js/',
+        src: [
+          '**/*'
+        ]
+      }
+    ]
+  },
+
+  "swedish": {
+    files: [
+      {
+        expand: true,
+        cwd: 'dist/swedish/html/',
+        src: [
+          '**/*'
+        ]
+      },
+      {
+        expand: true,
+        cwd: 'dist/swedish/css/',
+        src: [
+          '**/*'
+        ]
+      },
+      {
+        expand: true,
+        cwd: 'dist/swedish/js/',
         src: [
           '**/*'
         ]
@@ -30,29 +56,29 @@ module.exports = {
   "participant-center": {
     files: [
       {
-        expand: true, 
-        cwd: 'dist/participant-center/html/', 
-        src: [
-          '**/*'
-        ]
-      }, 
-      {
-        expand: true, 
-        cwd: 'dist/participant-center/css/', 
-        src: [
-          '**/*'
-        ]
-      }, 
-      {
-        expand: true, 
-        cwd: 'dist/participant-center/js/', 
+        expand: true,
+        cwd: 'dist/participant-center/html/',
         src: [
           '**/*'
         ]
       },
       {
-        expand: true, 
-        cwd: 'dist/participant-center/translation/', 
+        expand: true,
+        cwd: 'dist/participant-center/css/',
+        src: [
+          '**/*'
+        ]
+      },
+      {
+        expand: true,
+        cwd: 'dist/participant-center/js/',
+        src: [
+          '**/*'
+        ]
+      },
+      {
+        expand: true,
+        cwd: 'dist/participant-center/translation/',
         src: [
           '**/*'
         ]
