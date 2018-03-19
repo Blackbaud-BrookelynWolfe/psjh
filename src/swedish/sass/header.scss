@@ -1,0 +1,13 @@
+header {
+  nav {
+    background-color: $brand-primary;
+    text-align: right;
+    color: $link-color;
+
+    a {
+     font-size: $font-size-small;
+     color: $link-color;
+    }
+  }
+
+}

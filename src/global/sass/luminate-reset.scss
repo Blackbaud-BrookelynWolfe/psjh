@@ -2,43 +2,35 @@
 /* typography */
 /* ********** */
 
-p, 
-ol, 
-ul, 
-li, 
-table, 
-tr, 
-th, 
-td, 
-.Explicit, 
+p,
+ol,
+ul,
+li,
+table,
+tr,
+th,
+td,
+.Explicit,
 div.responsive {
   font-family: inherit;
   font-size: inherit;
-}
-
-/* **************** */
-/* elements to hide */
-/* **************** */
-
-div.responsive span.header-warning-message, 
-div.responsive div.ErrorMessage.page-error>span.field-error-indicator {
-  display: none;
 }
 
 /* ***** */
 /* links */
 /* ***** */
 
-a, 
-#login-div-content a, 
+a,
+#login-div-content a,
 div.responsive a {
-  &, 
-  &:link, 
-  &:visited, 
-  &:hover, 
-  &:focus, 
+  &,
+  &:link,
+  &:visited,
+  &:hover,
+  &:focus,
   &:active {
     color: $link-color;
+    cursor: pointer;
   }
 }
 
@@ -98,7 +90,7 @@ div.registration-page-container div.section-header {
 
 .mobile div#find_participant li {
   width: 135px !important;
-  
+
   @media (min-width: $screen-sm-min) {
     width: auto !important;
   }

@@ -1,5 +1,10 @@
 @import "../../global/sass/variables.scss";
+@import "variables.scss";
+
 @import "../../global/sass/mixins.scss";
 @import "../../global/sass/scaffolding.scss";
 @import "../../global/sass/luminate-reset.scss";
 @import "../../global/sass/buttons.scss";
+
+
+@import "header.scss"

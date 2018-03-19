@@ -14,13 +14,6 @@ div.responsive {
   font-family: inherit;
   font-size: inherit; }
 
-/* **************** */
-/* elements to hide */
-/* **************** */
-div.responsive span.header-warning-message,
-div.responsive div.ErrorMessage.page-error > span.field-error-indicator {
-  display: none; }
-
 /* ***** */
 /* links */
 /* ***** */
@@ -37,7 +30,8 @@ div.responsive a:visited,
 div.responsive a:hover,
 div.responsive a:focus,
 div.responsive a:active {
-  color: #de2427; }
+  color: #de2427;
+  cursor: pointer; }
 
 /* ******************* */
 /* warnings and errors */
@@ -97,7 +91,7 @@ html {
 
 body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-size: 20px; }
+  font-size: 16px; }
 
 a, a:link, a:visited, a:hover, a:focus {
   font-weight: 600;
