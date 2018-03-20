@@ -9,10 +9,12 @@ body {
   font-size: 16px; }
 
 header {
-  margin: 0 auto 18px; }
+  margin: 0 auto 18px;
+  padding: 0 0 18px; }
 
 footer {
-  margin: 18px auto 0; }
+  margin: 18px auto 0;
+  padding: 18px 0 0; }
 
 p,
 ol,
@@ -101,20 +103,14 @@ div.registration-page-container div.section-header {
     .mobile div#find_participant li {
       width: auto !important; } }
 
-div.thermometer-container {
-  background: #eee; }
-  div.thermometer-container div.thermometer-inner {
-    background: #4396cf; }
+div.thermometer-container div.thermometer-inner {
+  background: #4396cf; }
 
 div.progress-bar-step-current div.progress-bar-step-number-container {
   background: #4396cf; }
 
 div.part-type-container.selected {
-  border-color: #4396cf;
-  background: #eee; }
-
-div.registration-page-container div.section-sub-header {
-  background: #eee; }
+  border-color: #4396cf; }
 
 /* ************** */
 /* donation forms */
@@ -538,7 +534,6 @@ div.responsive .secondary-step:focus {
   border-color: #0070a9; }
 
 header {
-  padding: 0 0 18px;
   border-bottom: 2px solid #4396cf; }
   header nav {
     background-color: #4396cf;
@@ -556,5 +551,7 @@ header {
         text-decoration: underline; }
 
 footer {
-  padding: 18px 0;
   border-top: 2px solid #4396cf; }
+  footer p {
+    font-size: 12px;
+    line-height: 1.15; }

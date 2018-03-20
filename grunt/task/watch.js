@@ -24,7 +24,10 @@ module.exports = {
       'html-dist:global',
       'css-dist:global',
       'js-dist:global',
-      'notify:global'
+      'notify:global',
+      'clean:swedish',
+      'css-dist:swedish',
+      'notify:swedish'
     ]
   },
 
@@ -34,7 +37,6 @@ module.exports = {
     ],
     tasks: [
       'clean:swedish',
-      'html-dist:swedish',
       'css-dist:swedish',
       'notify:swedish'
     ]
