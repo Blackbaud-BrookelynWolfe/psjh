@@ -64,14 +64,11 @@ div.responsive div.ErrorMessage.page-error > span.field-error-text {
 /* **************** */
 div.responsive {
   color: inherit;
-  width: auto !important; }
+  width: auto; }
 
 /* ********** */
 /* teamraiser */
 /* ********** */
-div.tr-page-container {
-  border: 0; }
-
 .mobile div.tr-page-container #entry_page_custom_html {
   max-height: none;
   padding: 0; }
@@ -79,9 +76,8 @@ div.tr-page-container {
 div.tr-page-header {
   background: transparent; }
 
-div.registration-page-container div.section-container {
-  border-radius: 0; }
-
+div.tr-page-container,
+div.registration-page-container div.section-container,
 div.registration-page-container div.section-header {
   border-radius: 0; }
 
@@ -95,27 +91,21 @@ div.registration-page-container div.section-header {
     .mobile div#find_participant li {
       width: auto !important; } }
 
-div.thermometer-container {
-  background: #eee; }
-  div.thermometer-container div.thermometer-inner {
-    background: #de2427; }
+div.thermometer-container div.thermometer-inner {
+  background: #de2427; }
 
 div.progress-bar-step-current div.progress-bar-step-number-container {
   background: #de2427; }
 
 div.part-type-container.selected {
-  border-color: #de2427;
-  background: #eee; }
-
-div.registration-page-container div.section-sub-header {
-  background: #eee; }
+  border-color: #de2427; }
 
 /* ************** */
 /* donation forms */
 /* ************** */
 div.donation-form-container.responsive {
   background: transparent;
-  border: 0; }
+  border-radius: 0; }
 
 html {
   box-sizing: border-box; }
@@ -302,7 +292,7 @@ a.btn-secondary:focus {
 
 span.btn-primary, span.btn-primary:link, span.btn-primary:visited, span.btn-primary:hover, span.btn-primary:focus, span.btn-primary:active {
   background-color: #de2427;
-  border-color: #ca1e21; }
+  border-color: #de2427; }
 
 .btn-md, .btn-md:link, .btn-md:visited, .btn-md:link, .btn-md:link:link, .btn-md:link:visited, .btn-md:visited, .btn-md:visited:link, .btn-md:visited:visited,
 a.btn-md,

@@ -9,12 +9,21 @@ header {
     min-height: 40px;
     line-height: 40px;
 
-    a,
-    a:link,
-    a:visited,
-    a:focus {
-     font-size: $font-size-small;
-     text-decoration: none;
+    a {
+      font-size: $font-size-small;
+      cursor: pointer;
+
+      &:link,
+      &:visited,
+      &:focus {
+        text-decoration: none;
+      }
+
+      &:hover {
+        color: $link-color;
+        text-decoration: underline;
+      }
     }
+
   }
 }

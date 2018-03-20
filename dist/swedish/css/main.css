@@ -74,14 +74,11 @@ div.responsive div.ErrorMessage.page-error > span.field-error-text {
 /* **************** */
 div.responsive {
   color: inherit;
-  width: auto !important; }
+  width: auto; }
 
 /* ********** */
 /* teamraiser */
 /* ********** */
-div.tr-page-container {
-  border: 0; }
-
 .mobile div.tr-page-container #entry_page_custom_html {
   max-height: none;
   padding: 0; }
@@ -89,9 +86,8 @@ div.tr-page-container {
 div.tr-page-header {
   background: transparent; }
 
-div.registration-page-container div.section-container {
-  border-radius: 0; }
-
+div.tr-page-container,
+div.registration-page-container div.section-container,
 div.registration-page-container div.section-header {
   border-radius: 0; }
 
@@ -125,7 +121,7 @@ div.registration-page-container div.section-sub-header {
 /* ************** */
 div.donation-form-container.responsive {
   background: transparent;
-  border: 0; }
+  border-radius: 0; }
 
 .btn, .btn:link, .btn:visited,
 a.btn,
@@ -301,8 +297,8 @@ a.btn-secondary:focus {
   border-color: #0070a9; }
 
 span.btn-primary, span.btn-primary:link, span.btn-primary:visited, span.btn-primary:hover, span.btn-primary:focus, span.btn-primary:active {
-  background-color: #de2427;
-  border-color: #ca1e21; }
+  background-color: #4396cf;
+  border-color: #4396cf; }
 
 .btn-md, .btn-md:link, .btn-md:visited, .btn-md:link, .btn-md:link:link, .btn-md:link:visited, .btn-md:visited, .btn-md:visited:link, .btn-md:visited:visited,
 a.btn-md,
@@ -550,12 +546,14 @@ header {
     color: #8abee1;
     min-height: 40px;
     line-height: 40px; }
-    header nav a,
-    header nav a:link,
-    header nav a:visited,
-    header nav a:focus {
+    header nav a {
       font-size: 12px;
-      text-decoration: none; }
+      cursor: pointer; }
+      header nav a:link, header nav a:visited, header nav a:focus {
+        text-decoration: none; }
+      header nav a:hover {
+        color: #8abee1;
+        text-decoration: underline; }
 
 footer {
   padding: 18px 0;

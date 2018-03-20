@@ -10,7 +10,7 @@
 
 div.responsive div.ErrorMessage.page-error>span.field-error-text {
   background: transparent;
-  border: 0;
+  border: $border-radius-base;
 }
 
 /* **************** */
@@ -19,17 +19,12 @@ div.responsive div.ErrorMessage.page-error>span.field-error-text {
 
 div.responsive {
   color: inherit;
-  width: auto !important;
+  width: auto;
 }
 
 /* ********** */
 /* teamraiser */
 /* ********** */
-
-div.tr-page-container {
-  border: 0;
-}
-
 .mobile div.tr-page-container #entry_page_custom_html {
   max-height: none;
   padding: 0;
@@ -39,12 +34,10 @@ div.tr-page-header {
   background: transparent;
 }
 
-div.registration-page-container div.section-container {
-  border-radius: 0;
-}
-
+div.tr-page-container,
+div.registration-page-container div.section-container,
 div.registration-page-container div.section-header {
-  border-radius: 0;
+  border-radius: $border-radius-base;
 }
 
 #find_participant div.participant-find-search-container {
@@ -61,8 +54,6 @@ div.registration-page-container div.section-header {
 }
 
 div.thermometer-container {
-  background: $brand-grey;
-
   div.thermometer-inner {
     background: $brand-primary
   }
@@ -72,16 +63,13 @@ div.progress-bar-step-current div.progress-bar-step-number-container {
 }
 div.part-type-container.selected {
   border-color: $brand-primary;
-  background: $brand-grey;
 }
-div.registration-page-container div.section-sub-header {
-  background: $brand-grey;
-}
+
 /* ************** */
 /* donation forms */
 /* ************** */
 
 div.donation-form-container.responsive {
   background: transparent;
-  border: 0;
+  border-radius: $border-radius-base;
 }
