@@ -1,13 +1,20 @@
 header {
+  padding: 0 0 $padding-large-vertical;
+  border-bottom: 2px solid $brand-primary;
+
   nav {
     background-color: $brand-primary;
     text-align: right;
     color: $link-color;
+    min-height: 40px;
+    line-height: 40px;
 
-    a {
+    a,
+    a:link,
+    a:visited,
+    a:focus {
      font-size: $font-size-small;
-     color: $link-color;
+     text-decoration: none;
     }
   }
-
 }

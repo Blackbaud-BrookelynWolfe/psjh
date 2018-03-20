@@ -1,0 +1,49 @@
+p,
+ol,
+ul,
+li,
+table,
+tr,
+th,
+td,
+.Explicit,
+div.responsive {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+a,
+#login-div-content a,
+div.responsive a {
+  &,
+  &:link,
+  &:visited,
+  &:hover,
+  &:focus,
+  &:active {
+    color: $link-color;
+    cursor: pointer;
+    font-weight:600;
+    text-decoration: underline;
+  }
+
+  &:hover {
+    color: $link-color-darken;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3 {
+  color: $brand-primary
+}
+
+

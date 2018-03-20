@@ -1,6 +1,6 @@
 .btn,
 a.btn {
-  @include button-size($padding-base-vertical, $padding-base-horizontal, 14px);
+  @include button-size($padding-base-vertical, $padding-base-horizontal, $font-size-base);
 
   &,
   &:link,
@@ -29,12 +29,17 @@ span.btn {
 
 .btn-success,
 a.btn-success {
-  @include button-variant($btn-success-color, $btn-success-bg, $btn-success-border, $btn-success-color, darken($btn-success-bg, 10%), darken($btn-success-border, 10%));
+  @include button-variant($brand-white, $brand-success, $brand-success, $brand-white, $brand-success-darker, $brand-success-darker);
 }
 
 .btn-primary,
 a.btn-primary {
-  @include button-variant($btn-primary-color, $btn-primary-bg, $btn-primary-border, $btn-primary-color, $btn-primary-darker-bg, $btn-primary-darker-border);
+  @include button-variant($brand-white, $brand-primary, $brand-primary, $brand-white, $brand-primary-darker, $brand-primary-darker);
+}
+
+.btn-secondary,
+a.btn-secondary {
+  @include button-variant($brand-white, $brand-secondary, $brand-secondary, $brand-white, $brand-primary-darker, $brand-primary-darker);
 }
 
 span.btn-primary {
@@ -49,17 +54,12 @@ span.btn-primary {
   }
 }
 
-.btn-primary-inverted,
-a.btn-primary-inverted {
-  @include button-variant($btn-primary-bg, transparent, $btn-primary-border, $btn-primary-color, $btn-primary-bg, $btn-primary-border);
-}
-
 .btn-md,
 a.btn-md {
   &,
   &:link,
   &:visited {
-    @include button-size($padding-large-vertical, $padding-large-horizontal, 16px);
+    @include button-size($padding-large-vertical, $padding-large-horizontal, $font-size-base);
   }
 }
 
@@ -68,7 +68,7 @@ a.btn-lg {
   &,
   &:link,
   &:visited {
-    @include button-size($padding-large-horizontal, $padding-large-horizontal, 16px);
+    @include button-size($padding-large-horizontal, $padding-large-horizontal, $font-size-h3);
   }
 }
 

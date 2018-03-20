@@ -3,8 +3,11 @@
 
 @import "../../global/sass/mixins.scss";
 @import "../../global/sass/scaffolding.scss";
-@import "../../global/sass/luminate-reset.scss";
+@import "../../global/sass/layout.scss";
+@import "../../global/sass/typography.scss";
+// @import "../../global/sass/luminate-reset.scss";
 @import "../../global/sass/buttons.scss";
 
 
-@import "header.scss"
+@import "header.scss";
+@import "footer.scss"
