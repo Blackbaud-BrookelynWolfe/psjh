@@ -60,6 +60,23 @@ div.registration-page-container div.section-header {
   }
 }
 
+div.thermometer-container {
+  background: $brand-grey;
+
+  div.thermometer-inner {
+    background: $brand-primary
+  }
+}
+div.progress-bar-step-current div.progress-bar-step-number-container {
+  background: $brand-primary;
+}
+div.part-type-container.selected {
+  border-color: $brand-primary;
+  background: $brand-grey;
+}
+div.registration-page-container div.section-sub-header {
+  background: $brand-grey;
+}
 /* ************** */
 /* donation forms */
 /* ************** */

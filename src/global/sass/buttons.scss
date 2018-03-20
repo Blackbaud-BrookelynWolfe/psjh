@@ -75,3 +75,22 @@ a.btn-lg {
 .btn--full-width {
   width: 100%;
 }
+
+div.responsive {
+  a.next-step,
+  .next-step,
+  button.next-step,
+  button.action-button,
+  div#find_participant div.list-component-body div.list-component-cell-column-donate a,
+  button.step-button,
+  input.step-button {
+    @include button-variant($brand-white, $brand-primary, $brand-primary, $brand-white, $brand-primary-darker, $brand-primary-darker);
+    text-decoration: none;
+  }
+
+  a.secondary-step,
+  .secondary-step {
+    @include button-variant($brand-white, $brand-secondary, $brand-secondary, $brand-white, $brand-primary-darker, $brand-primary-darker);
+  }
+
+}

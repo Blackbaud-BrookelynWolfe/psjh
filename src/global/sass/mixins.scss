@@ -1,33 +1,36 @@
 @mixin button-variant($color, $background, $border, $hover-color: $color, $hover-background: $background, $hover-border: $border) {
-  &, 
-  &:link, 
-  &:visited, 
-  &:hover, 
-  &:focus, 
+  &,
+  &:link,
+  &:visited,
+  &:hover,
+  &:focus,
   &:active {
     background-image: none;
+    filter: none;
+    border-radius: $border-radius-base;
+    text-decoration: none;
   }
-  
-  &, 
-  &:link, 
+
+  &,
+  &:link,
   &:visited {
     background-color: $background;
     border-color: $border;
     color: $color;
   }
-  
-  &:hover, 
-  &:focus, 
+
+  &:hover,
+  &:focus,
   &:active {
     background-color: $hover-background;
     border-color: $hover-border;
     color: $hover-color;
   }
-  
+
   &:hover {
     background-position: 0 0;
   }
-  
+
   &:active {
     &:hover,
     &:focus {
@@ -35,10 +38,10 @@
       border-color: $hover-border;
     }
   }
-  
-  &[disabled], 
+
+  &[disabled],
   fieldset[disabled] & {
-    &:hover, 
+    &:hover,
     &:focus {
       background-color: $background;
       border-color: $border;
@@ -47,8 +50,8 @@
 }
 
 @mixin button-size($padding-vertical, $padding-horizontal, $font-size) {
-  &, 
-  &:link, 
+  &,
+  &:link,
   &:visited {
     padding: $padding-vertical $padding-horizontal;
     font-size: $font-size;
