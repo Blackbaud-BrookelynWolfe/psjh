@@ -1,11 +1,3 @@
-header {
-  margin: 0 auto 18px;
-  padding: 0 0 18px; }
-
-footer {
-  margin: 18px auto 0;
-  padding: 18px 0 0; }
-
 p,
 ol,
 ul,
@@ -296,6 +288,19 @@ span.btn-primary, span.btn-primary:link, span.btn-primary:visited, span.btn-prim
   background-color: #de2427;
   border-color: #de2427; }
 
+.btn-sm, .btn-sm:link, .btn-sm:visited, .btn-sm:link, .btn-sm:link:link, .btn-sm:link:visited, .btn-sm:visited, .btn-sm:visited:link, .btn-sm:visited:visited,
+a.btn-sm,
+a.btn-sm:link,
+a.btn-sm:visited,
+a.btn-sm:link,
+a.btn-sm:link:link,
+a.btn-sm:link:visited,
+a.btn-sm:visited,
+a.btn-sm:visited:link,
+a.btn-sm:visited:visited {
+  padding: 12px 24px;
+  font-size: 12px; }
+
 .btn-md, .btn-md:link, .btn-md:visited, .btn-md:link, .btn-md:link:link, .btn-md:link:visited, .btn-md:visited, .btn-md:visited:link, .btn-md:visited:visited,
 a.btn-md,
 a.btn-md:link,
@@ -532,3 +537,13 @@ fieldset[disabled]
 div.responsive .secondary-step:focus {
   background-color: #8abee1;
   border-color: #8abee1; }
+
+header {
+  margin: 0 auto 18px;
+  padding: 0 0 18px; }
+  header .header-logos {
+    margin-top: 18px; }
+
+footer {
+  margin: 18px auto 0;
+  padding: 18px 0; }

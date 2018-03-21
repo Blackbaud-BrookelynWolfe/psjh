@@ -54,6 +54,15 @@ span.btn-primary {
   }
 }
 
+.btn-sm,
+a.btn-sm {
+  &,
+  &:link,
+  &:visited {
+    @include button-size($padding-base-vertical, $padding-base-horizontal, $font-size-small);
+  }
+}
+
 .btn-md,
 a.btn-md {
   &,

@@ -5,4 +5,8 @@ footer {
     font-size: $font-size-small;
     line-height: 1.15;
   }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
 }

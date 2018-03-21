@@ -1,13 +1,7 @@
 @import "../../global/sass/variables.scss";
 @import "variables.scss";
 
-@import "../../global/sass/mixins.scss";
-@import "../../global/sass/scaffolding.scss";
-@import "../../global/sass/layout.scss";
-@import "../../global/sass/typography.scss";
-@import "../../global/sass/luminate-reset.scss";
-@import "../../global/sass/buttons.scss";
-
+@import "../../global/sass/global-components.scss";
 
 @import "header.scss";
 @import "footer.scss"
