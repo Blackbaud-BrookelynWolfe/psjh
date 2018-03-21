@@ -1,8 +1,13 @@
 header {
-  margin: 0 auto $padding-large-vertical;
   padding: 0 0 $padding-large-vertical;
 
   .header-logos {
     margin-top: $padding-large-vertical;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
 }

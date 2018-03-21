@@ -15,6 +15,11 @@ module.exports = {
     dest: 'dist/swedish/css/main.min.css'
   },
 
+  "rivkin": {
+    src: 'dist/rivkin/css/main.css',
+    dest: 'dist/rivkin/css/main.min.css'
+  },
+
   "participant-center": {
     src: 'dist/participant-center/css/main.css',
     dest: 'dist/participant-center/css/main.min.css'

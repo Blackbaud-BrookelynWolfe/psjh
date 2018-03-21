@@ -1,0 +1,12 @@
+footer {
+  border-top: 2px solid $brand-primary;
+
+  p {
+    font-size: $font-size-small;
+    line-height: 1.15;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}

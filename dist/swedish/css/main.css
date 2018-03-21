@@ -1,13 +1,4 @@
-p,
-ol,
-ul,
-li,
-table,
-tr,
-th,
-td,
-.Explicit,
-div.responsive {
+form, input, input.AddressBookButtons, input.Advocacy, input.btn, input.btnLg, input.btnMed, input.btnMini, input.btnSm, select, select.Advocacy, textarea, legend, ul, ol, li, option, table, tr, th, th.rfl_infoStatus, td, td.AlertListDescription, td.cstmBack, p, p.cstmBtnText, p.cstmFrame, p.cstmHeading, p.cstmText, p.cstmTitle, p.dividerHeading, p.scrollingText, span.cstmHeading, a, a.btn, a.btn:visited, a.cstmBtnText:hover, a.cstmBtnText:link, a.cstmBtnText:visited, #navList, .AdvocacyInstructions, .AdvocacyNSFix, .BlogHeader, .Button, .Divider, .FieldLabels, .FormBox, .FormBox06, .FormBoxHeader, .Hint, .Instructions, .Instructions, .ListItem0, .ListItem1, .NetscapeFix, .NoteText, .ObjTitle, .PhotoLinks, .Premiums, .ProgressBox, .ProgressBoxCurrent, .SectionHead, .SmallButton, .Smaller, .SmallerC, .TribBtnText1, .Upgrades, .WhatNext, .alphacube_content, .dialog_content, .dialog_title, .Explicit, .fr_register_another, .paraBlueSansSmall, .smallBlack, .smallSans, .smallSansBold, .smallWhiteBoldSans, .smallWhiteSans, .smallestBlackSansp, .Explicit, div.responsive {
   font-family: inherit;
   font-size: inherit; }
 
@@ -258,8 +249,8 @@ a.btn-secondary:visited {
 a.btn-secondary:hover,
 a.btn-secondary:focus,
 a.btn-secondary:active {
-  background-color: #235f89;
-  border-color: #235f89;
+  background-color: #002c43;
+  border-color: #002c43;
   color: #ffffff; }
 
 .btn-secondary:hover,
@@ -269,8 +260,8 @@ a.btn-secondary:hover {
 .btn-secondary:active:hover, .btn-secondary:active:focus,
 a.btn-secondary:active:hover,
 a.btn-secondary:active:focus {
-  background-color: #235f89;
-  border-color: #235f89; }
+  background-color: #002c43;
+  border-color: #002c43; }
 
 .btn-secondary[disabled]:hover, .btn-secondary[disabled]:focus,
 fieldset[disabled] .btn-secondary:hover,
@@ -539,31 +530,62 @@ div.responsive .secondary-step:focus {
   border-color: #0070a9; }
 
 header {
-  margin: 0 auto 18px;
   padding: 0 0 18px; }
   header .header-logos {
     margin-top: 18px; }
+  header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+
+nav {
+  text-align: right;
+  color: #ffffff; }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 12px 0; }
+    nav ul li {
+      display: inline-block;
+      padding: 0 0 0 5px;
+      margin: 0;
+      border-left: 1px solid; }
+    nav ul li:first-child {
+      padding: 0;
+      margin: 0;
+      border: 0; }
+  nav a {
+    cursor: pointer; }
+    nav a:link, nav a:visited, nav a:focus {
+      text-decoration: none; }
+    nav a:hover {
+      text-decoration: underline; }
 
 footer {
   margin: 18px auto 0;
   padding: 18px 0; }
+  footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
 
 header {
-  border-bottom: 2px solid #4396cf; }
-  header nav {
-    background-color: #4396cf;
-    text-align: right;
-    color: #8abee1;
-    min-height: 40px;
-    line-height: 40px; }
-    header nav a {
-      font-size: 12px;
-      cursor: pointer; }
-      header nav a:link, header nav a:visited, header nav a:focus {
-        text-decoration: none; }
-      header nav a:hover {
-        color: #8abee1;
-        text-decoration: underline; }
+  border-bottom: 2px solid #4396cf;
+  margin: 0 auto 18px; }
+
+nav {
+  background-color: #4396cf;
+  text-align: right;
+  color: #8abee1;
+  min-height: 40px; }
+  nav a {
+    font-size: 12px;
+    cursor: pointer; }
+    nav a:link, nav a:visited, nav a:focus {
+      text-decoration: none; }
+    nav a:hover {
+      color: #8abee1;
+      text-decoration: underline; }
 
 footer {
   border-top: 2px solid #4396cf; }

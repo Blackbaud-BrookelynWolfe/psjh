@@ -8,7 +8,7 @@ $brand-secondary: #8abee1;
 $brand-secondary-darker: darken($brand-secondary, 20%);
 
 $link-color: #8abee1;
-$link-color-darken: darken($link-color, 20%);
+$link-color-darker: darken($link-color, 20%);
 
 $brand-white: #ffffff;
 $brand-grey: #eee;
@@ -41,6 +41,10 @@ $btn-success-border: darken($btn-success-bg, 5%) !default;
 
 $border-radius-base: 0 !default;
 $input-border-radius: $border-radius-base !default;
+
+
+$screen-xs: 568px !default;
+$screen-xs-min: $screen-xs !default;
 
 $screen-sm: 768px !default;
 $screen-sm-min: $screen-sm !default;

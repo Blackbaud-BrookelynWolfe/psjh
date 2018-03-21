@@ -57,3 +57,26 @@
     font-size: $font-size;
   }
 }
+
+@mixin social-media-icon($size, $radius, $background, $hover, $color) {
+  & {
+    display: flex;
+    width: $size;
+    height: $size;
+    border-radius: $radius;
+    background: $background;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+      background: $hover;
+      text-decoration: none;
+    }
+
+    .fa {
+      font-size: $size - 10px;
+      color: $color;
+    }
+  }
+}

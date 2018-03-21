@@ -39,7 +39,7 @@ a.btn-primary {
 
 .btn-secondary,
 a.btn-secondary {
-  @include button-variant($brand-white, $brand-secondary, $brand-secondary, $brand-white, $brand-primary-darker, $brand-primary-darker);
+  @include button-variant($brand-white, $brand-secondary, $brand-secondary, $brand-white, $brand-secondary-darker, $brand-secondary-darker);
 }
 
 span.btn-primary {

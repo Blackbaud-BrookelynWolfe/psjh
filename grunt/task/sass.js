@@ -17,6 +17,14 @@ module.exports = {
     }
   },
 
+  "rivkin": {
+    files: {
+      'dist/rivkin/css/main.css': [
+        'src/rivkin/sass/main.scss'
+      ]
+    }
+  },
+
   "participant-center": {
     files: {
       'dist/participant-center/css/main.css': [
