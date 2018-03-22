@@ -1,13 +1,4 @@
-p,
-ol,
-ul,
-li,
-table,
-tr,
-th,
-td,
-.Explicit,
-div.responsive {
+form, input, input.AddressBookButtons, input.Advocacy, input.btn, input.btnLg, input.btnMed, input.btnMini, input.btnSm, select, select.Advocacy, textarea, legend, ul, ol, li, option, table, tr, th, th.rfl_infoStatus, td, td.AlertListDescription, td.cstmBack, p, p.cstmBtnText, p.cstmFrame, p.cstmHeading, p.cstmText, p.cstmTitle, p.dividerHeading, p.scrollingText, span.cstmHeading, a, a.btn, a.btn:visited, a.cstmBtnText:hover, a.cstmBtnText:link, a.cstmBtnText:visited, #navList, .AdvocacyInstructions, .AdvocacyNSFix, .BlogHeader, .Button, .Divider, .FieldLabels, .FormBox, .FormBox06, .FormBoxHeader, .Hint, .Instructions, .Instructions, .ListItem0, .ListItem1, .NetscapeFix, .NoteText, .ObjTitle, .PhotoLinks, .Premiums, .ProgressBox, .ProgressBoxCurrent, .SectionHead, .SmallButton, .Smaller, .SmallerC, .TribBtnText1, .Upgrades, .WhatNext, .alphacube_content, .dialog_content, .dialog_title, .Explicit, .fr_register_another, .paraBlueSansSmall, .smallBlack, .smallSans, .smallSansBold, .smallWhiteBoldSans, .smallWhiteSans, .smallestBlackSansp, .Explicit, div.responsive {
   font-family: inherit;
   font-size: inherit;
 }
@@ -28,7 +19,7 @@ div.responsive a {
   }
 
   &:hover {
-    color: $link-color-darken;
+    color: $link-color-darker;
   }
 }
 

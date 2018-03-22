@@ -53,6 +53,32 @@ module.exports = {
     ]
   },
 
+  "rivkin": {
+    files: [
+      {
+        expand: true,
+        cwd: 'dist/rivkin/html/',
+        src: [
+          '**/*'
+        ]
+      },
+      {
+        expand: true,
+        cwd: 'dist/rivkin/css/',
+        src: [
+          '**/*'
+        ]
+      },
+      {
+        expand: true,
+        cwd: 'dist/rivkin/js/',
+        src: [
+          '**/*'
+        ]
+      }
+    ]
+  },
+
   "participant-center": {
     files: [
       {

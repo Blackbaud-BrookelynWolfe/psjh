@@ -1,0 +1,37 @@
+nav {
+  text-align: right;
+  color: $brand-white;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: $padding-base-vertical 0;
+
+    li {
+      display: inline-block;
+      padding: 0 0 0 5px;
+      margin: 0;
+      border-left: 1px solid;
+    }
+
+    li:first-child{
+      padding: 0;
+      margin: 0;
+      border: 0;
+    }
+  }
+
+  a {
+    cursor: pointer;
+
+    &:link,
+    &:visited,
+    &:focus {
+      text-decoration: none;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+nav {
+  background-color: $brand-primary;
+  text-align: right;
+  color: $link-color;
+  min-height: 40px;
+
+  a {
+    font-size: $font-size-small;
+    cursor: pointer;
+
+    &:link,
+    &:visited,
+    &:focus {
+      text-decoration: none;
+    }
+
+    &:hover {
+      color: $link-color;
+      text-decoration: underline;
+    }
+  }
+}

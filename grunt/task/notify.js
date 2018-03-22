@@ -22,6 +22,13 @@ module.exports = {
     }
   },
 
+  "rivkin": {
+    options: {
+      title: 'Rivkin',
+      message: 'Rivkin files updated'
+    }
+  },
+
   "participant-center": {
     options: {
       title: 'Angular TeamRaiser Participant Center',
