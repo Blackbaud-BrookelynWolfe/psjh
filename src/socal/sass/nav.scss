@@ -1,20 +1,35 @@
 nav {
-  background-color: $brand-secondary;
-  min-height: 40px;
-  line-height: 40px;
-  color: $brand-grey;
+  background-color: $brand-primary;
+  color: $brand-white;
+  text-align: center;
+
+  ul {
+    padding: 0;
+
+    li {
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle;
+      positon: relative;
+      min-width: 70px;
+    }
+  }
 
   a {
-    font-weight: 400;
+    display: block;
+    padding: $padding-base-vertical 0;
+
     &:link,
     &:visited,
     &:focus {
-      color: $brand-grey;
-      font-size: $font-size-small;
+      color: $brand-white;
+      font-weight: 400;
     }
 
     &:hover {
-      text-decoration: underline;
+      background-color: $brand-secondary;
+      color: $brand-primary;
+      font-weight: 400;
     }
   }
 }
