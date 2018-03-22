@@ -58,7 +58,7 @@
   }
 }
 
-@mixin social-media-icon($size, $radius, $background, $hover, $color) {
+@mixin social-media-icon($size, $iconSize, $radius, $background, $hover, $color) {
   & {
     display: flex;
     width: $size;
@@ -75,7 +75,7 @@
     }
 
     .fa {
-      font-size: $size - 10px;
+      font-size: $iconSize;
       color: $color;
     }
   }

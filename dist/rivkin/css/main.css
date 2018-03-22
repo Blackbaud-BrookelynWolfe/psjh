@@ -241,16 +241,16 @@ a.btn-secondary:active {
 a.btn-secondary,
 a.btn-secondary:link,
 a.btn-secondary:visited {
-  background-color: #555555;
-  border-color: #555555;
+  background-color: #5b5b5b;
+  border-color: #5b5b5b;
   color: #ffffff; }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active,
 a.btn-secondary:hover,
 a.btn-secondary:focus,
 a.btn-secondary:active {
-  background-color: #222222;
-  border-color: #222222;
+  background-color: #282828;
+  border-color: #282828;
   color: #ffffff; }
 
 .btn-secondary:hover,
@@ -260,8 +260,8 @@ a.btn-secondary:hover {
 .btn-secondary:active:hover, .btn-secondary:active:focus,
 a.btn-secondary:active:hover,
 a.btn-secondary:active:focus {
-  background-color: #222222;
-  border-color: #222222; }
+  background-color: #282828;
+  border-color: #282828; }
 
 .btn-secondary[disabled]:hover, .btn-secondary[disabled]:focus,
 fieldset[disabled] .btn-secondary:hover,
@@ -272,8 +272,8 @@ fieldset[disabled]
 a.btn-secondary:hover,
 fieldset[disabled]
 a.btn-secondary:focus {
-  background-color: #555555;
-  border-color: #555555; }
+  background-color: #5b5b5b;
+  border-color: #5b5b5b; }
 
 span.btn-primary, span.btn-primary:link, span.btn-primary:visited, span.btn-primary:hover, span.btn-primary:focus, span.btn-primary:active {
   background-color: #14b6c2;
@@ -495,8 +495,8 @@ div.responsive a.secondary-step, div.responsive a.secondary-step:link, div.respo
 div.responsive .secondary-step,
 div.responsive .secondary-step:link,
 div.responsive .secondary-step:visited {
-  background-color: #555555;
-  border-color: #555555;
+  background-color: #5b5b5b;
+  border-color: #5b5b5b;
   color: #ffffff; }
 
 div.responsive a.secondary-step:hover, div.responsive a.secondary-step:focus, div.responsive a.secondary-step:active,
@@ -526,8 +526,8 @@ fieldset[disabled]
 div.responsive .secondary-step:hover,
 fieldset[disabled]
 div.responsive .secondary-step:focus {
-  background-color: #555555;
-  border-color: #555555; }
+  background-color: #5b5b5b;
+  border-color: #5b5b5b; }
 
 header {
   padding: 0 0 18px; }
@@ -579,9 +579,12 @@ header .container {
     text-align: right;
     flex: 1;
     align-self: flex-end; }
+    @media (max-width: 568px) {
+      header .container .header-social-media {
+        display: none; } }
 
 nav {
-  background-color: #555555;
+  background-color: #5b5b5b;
   min-height: 40px;
   line-height: 40px;
   color: #b5b5b5; }
@@ -593,10 +596,6 @@ nav {
     nav a:hover {
       text-decoration: underline; }
 
-@media (max-width: 568px) {
-  .social-media-links {
-    display: none; } }
-
 .social-media-links ul {
   margin: 0; }
 
@@ -607,8 +606,8 @@ nav {
     margin: 0; }
   .social-media-links li .icon {
     display: flex;
-    width: 25px;
-    height: 25px;
+    width: 22px;
+    height: 22px;
     border-radius: 50%;
     background: #b5b5b5;
     text-decoration: none;
@@ -628,13 +627,29 @@ nav {
       color: #828282;
       text-decoration: underline; }
 
-footer .social-media-links li:first-child {
-  display: none; }
-
 footer {
-  border-top: 2px solid #14b6c2; }
+  background: #5b5b5b;
+  color: #eeeeee;
+  padding: 36px 0; }
+  footer h5 {
+    text-transform: uppercase;
+    margin-bottom: 18px; }
   footer p {
-    font-size: 12px;
-    line-height: 1.15; }
+    font-size: 12px; }
   footer p:last-child {
     margin-bottom: 0; }
+  footer a, footer a:link, footer a:visited {
+    color: #b5b5b5; }
+  footer a:hover {
+    color: #828282; }
+  footer .social-media-links {
+    margin-bottom: 18px; }
+    footer .social-media-links li:first-child {
+      display: none; }
+    footer .social-media-links li:nth-child(2) {
+      margin-left: 0; }
+  footer .footer-info {
+    float: none; }
+    @media (min-width: 768px) {
+      footer .footer-info {
+        float: right; } }

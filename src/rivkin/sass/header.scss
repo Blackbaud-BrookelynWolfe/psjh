@@ -12,6 +12,10 @@ header {
       text-align: right;
       flex: 1;
       align-self: flex-end;
+
+      @media(max-width: $screen-xs) {
+        display:none;
+      }
     }
   }
 }

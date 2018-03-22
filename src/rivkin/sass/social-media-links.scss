@@ -1,9 +1,4 @@
 .social-media-links {
-
-  @media(max-width: $screen-xs) {
-    display:none;
-  }
-
   ul {
     margin: 0;
   }
@@ -16,7 +11,7 @@
     }
 
     .icon {
-      @include social-media-icon(25px, 50%, $brand-grey, $brand-grey-darker, $brand-white);
+      @include social-media-icon(22px, 15px, 50%, $brand-grey, $brand-grey-darker, $brand-white);
     }
 
     .text {
@@ -30,8 +25,4 @@
       }
     }
   }
-}
-
-footer .social-media-links li:first-child {
-  display: none;
 }
