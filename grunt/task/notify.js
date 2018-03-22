@@ -15,6 +15,20 @@ module.exports = {
     }
   },
 
+  "rivkin": {
+    options: {
+      title: 'Rivkin',
+      message: 'Rivkin files updated'
+    }
+  },
+
+  "socal": {
+    options: {
+      title: 'Socal',
+      message: 'Socal files updated'
+    }
+  },
+
   "swedish": {
     options: {
       title: 'Swedish',
@@ -22,12 +36,7 @@ module.exports = {
     }
   },
 
-  "rivkin": {
-    options: {
-      title: 'Rivkin',
-      message: 'Rivkin files updated'
-    }
-  },
+
 
   "participant-center": {
     options: {

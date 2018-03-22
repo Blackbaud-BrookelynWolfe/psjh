@@ -27,32 +27,6 @@ module.exports = {
     ]
   },
 
-  "swedish": {
-    files: [
-      {
-        expand: true,
-        cwd: 'dist/swedish/html/',
-        src: [
-          '**/*'
-        ]
-      },
-      {
-        expand: true,
-        cwd: 'dist/swedish/css/',
-        src: [
-          '**/*'
-        ]
-      },
-      {
-        expand: true,
-        cwd: 'dist/swedish/js/',
-        src: [
-          '**/*'
-        ]
-      }
-    ]
-  },
-
   "rivkin": {
     files: [
       {
@@ -72,6 +46,58 @@ module.exports = {
       {
         expand: true,
         cwd: 'dist/rivkin/js/',
+        src: [
+          '**/*'
+        ]
+      }
+    ]
+  },
+
+  "socal": {
+    files: [
+      {
+        expand: true,
+        cwd: 'dist/socal/html/',
+        src: [
+          '**/*'
+        ]
+      },
+      {
+        expand: true,
+        cwd: 'dist/socal/css/',
+        src: [
+          '**/*'
+        ]
+      },
+      {
+        expand: true,
+        cwd: 'dist/socal/js/',
+        src: [
+          '**/*'
+        ]
+      }
+    ]
+  },
+
+  "swedish": {
+    files: [
+      {
+        expand: true,
+        cwd: 'dist/swedish/html/',
+        src: [
+          '**/*'
+        ]
+      },
+      {
+        expand: true,
+        cwd: 'dist/swedish/css/',
+        src: [
+          '**/*'
+        ]
+      },
+      {
+        expand: true,
+        cwd: 'dist/swedish/js/',
         src: [
           '**/*'
         ]

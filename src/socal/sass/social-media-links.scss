@@ -1,0 +1,28 @@
+.social-media-links {
+  ul {
+    margin: 0;
+  }
+  li {
+    display: inline-block;
+    margin-left: 5px;
+
+    &:first-child {
+      margin: 0;
+    }
+
+    .icon {
+      @include social-media-icon(22px, 15px, 50%, $brand-grey, $brand-grey-darker, $brand-white);
+    }
+
+    .text {
+      color: $brand-grey;
+      text-decoration: none;
+      font-size: $font-size-small;
+
+      &:hover {
+        color: $brand-grey-darker;
+        text-decoration: underline;
+      }
+    }
+  }
+}

@@ -20,28 +20,20 @@ module.exports = {
       'src/global/coffee/**/*'
     ],
     tasks: [
-      'clean:swedish',
-      'css-dist:swedish',
-      'notify:swedish',
       'clean:rivkin',
       'css-dist:rivkin',
       'notify:rivkin',
+      'clean:swedish',
+      'css-dist:swedish',
+      'notify:swedish',
+      'clean:socal',
+      'css-dist:socal',
+      'notify:socal',
       'clean:global',
       'html-dist:global',
       'css-dist:global',
       'js-dist:global',
       'notify:global'
-    ]
-  },
-
-  "swedish": {
-    files: [
-      'src/swedish/sass/*',
-    ],
-    tasks: [
-      'clean:swedish',
-      'css-dist:swedish',
-      'notify:swedish'
     ]
   },
 
@@ -53,6 +45,28 @@ module.exports = {
       'clean:rivkin',
       'css-dist:rivkin',
       'notify:rivkin'
+    ]
+  },
+
+  "socal": {
+    files: [
+      'src/socal/sass/*',
+    ],
+    tasks: [
+      'clean:socal',
+      'css-dist:socal',
+      'notify:socal'
+    ]
+  },
+
+  "swedish": {
+    files: [
+      'src/swedish/sass/*',
+    ],
+    tasks: [
+      'clean:swedish',
+      'css-dist:swedish',
+      'notify:swedish'
     ]
   },
 
