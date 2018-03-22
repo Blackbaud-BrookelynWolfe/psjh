@@ -1,15 +1,18 @@
-$font-family-base: 'Source Sans Pro',sans-serif;
+$font-family-base: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
-$brand-primary: #14b6c2;
-$brand-primary-darker: darken($brand-primary, 20%);
-$brand-secondary: #5b5b5b;
+$brand-primary: #1a447d;
+$brand-primary-darker: #00275d;
+$brand-secondary: #ffc16e;
 $brand-secondary-darker: darken($brand-secondary, 20%);
 
-$brand-grey: #b5b5b5;
+$brand-accent: #4b80b8;
+$brand-secondary-darker: darken($brand-accent, 20%);
+
+$brand-grey: #454e5c;
 $brand-grey-darker: darken($brand-grey, 20%);
 
-$brand-pale-grey: #eeeeee;
+$brand-pale-grey: #a4cdff;
 
-$link-color: #00B0C0;
-$link-color-darker: darken($link-color, 20%);
+$link-color: #004b8d;
+$link-color-darker: #f8a039;
 
