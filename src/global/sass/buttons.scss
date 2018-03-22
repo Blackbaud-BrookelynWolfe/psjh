@@ -94,12 +94,18 @@ div.responsive {
   button.step-button,
   input.step-button {
     @include button-variant($brand-white, $brand-primary, $brand-primary, $brand-white, $brand-primary-darker, $brand-primary-darker);
+    @include button-size($padding-base-vertical, $padding-base-horizontal, $font-size-base);
     text-decoration: none;
+    border: 0 none;
+    line-height: 1.2;
+    min-width: 0;
+    max-width: none;
   }
 
   a.secondary-step,
   .secondary-step {
     @include button-variant($brand-white, $brand-secondary, $brand-secondary, $brand-white, $brand-primary-darker, $brand-primary-darker);
+    @include button-size($padding-base-vertical, $padding-base-horizontal, $font-size-base);
   }
 
 }

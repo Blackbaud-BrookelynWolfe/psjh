@@ -328,7 +328,11 @@ div.responsive button.action-button,
 div.responsive div#find_participant div.list-component-body div.list-component-cell-column-donate a,
 div.responsive button.step-button,
 div.responsive input.step-button {
-  text-decoration: none; }
+  text-decoration: none;
+  border: 0 none;
+  line-height: 1.2;
+  min-width: 0;
+  max-width: none; }
   div.responsive a.next-step, div.responsive a.next-step:link, div.responsive a.next-step:visited, div.responsive a.next-step:hover, div.responsive a.next-step:focus, div.responsive a.next-step:active,
   div.responsive .next-step,
   div.responsive .next-step:link,
@@ -478,6 +482,27 @@ div.responsive input.step-button {
   div.responsive input.step-button:focus {
     background-color: #4396cf;
     border-color: #4396cf; }
+  div.responsive a.next-step, div.responsive a.next-step:link, div.responsive a.next-step:visited,
+  div.responsive .next-step,
+  div.responsive .next-step:link,
+  div.responsive .next-step:visited,
+  div.responsive button.next-step,
+  div.responsive button.next-step:link,
+  div.responsive button.next-step:visited,
+  div.responsive button.action-button,
+  div.responsive button.action-button:link,
+  div.responsive button.action-button:visited,
+  div.responsive div#find_participant div.list-component-body div.list-component-cell-column-donate a,
+  div.responsive div#find_participant div.list-component-body div.list-component-cell-column-donate a:link,
+  div.responsive div#find_participant div.list-component-body div.list-component-cell-column-donate a:visited,
+  div.responsive button.step-button,
+  div.responsive button.step-button:link,
+  div.responsive button.step-button:visited,
+  div.responsive input.step-button,
+  div.responsive input.step-button:link,
+  div.responsive input.step-button:visited {
+    padding: 12px 24px;
+    font-size: 16px; }
 
 div.responsive a.secondary-step, div.responsive a.secondary-step:link, div.responsive a.secondary-step:visited, div.responsive a.secondary-step:hover, div.responsive a.secondary-step:focus, div.responsive a.secondary-step:active,
 div.responsive .secondary-step,
@@ -528,6 +553,17 @@ fieldset[disabled]
 div.responsive .secondary-step:focus {
   background-color: #0070a9;
   border-color: #0070a9; }
+
+div.responsive a.secondary-step, div.responsive a.secondary-step:link, div.responsive a.secondary-step:visited,
+div.responsive .secondary-step,
+div.responsive .secondary-step:link,
+div.responsive .secondary-step:visited {
+  padding: 12px 24px;
+  font-size: 16px; }
+
+label,
+.FormLabel {
+  font-weight: 700; }
 
 header {
   padding: 0 0 18px; }
